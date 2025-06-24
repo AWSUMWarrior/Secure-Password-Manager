@@ -19,14 +19,17 @@
 git clone https://github.com/AWSUMWarrior/Secure-Password-Manager.git
 cd Secure-Password-Manager
 ```
+
 #### 2. Install Dependencies: 
 ```bash
 pip install cryptography
 ```
+
 #### 3. Run the Application:
 ```bash
 py mainpage.py
 ```
+
 #### 4. Create an Account:
 First-time users will be prompted to create an account:
 * Create an username.
@@ -50,3 +53,6 @@ First-time users will be prompted to create an account:
 * Implementing user login authentication
 * Input validation and secure file handling
 * Python modular design and classes
+
+## Notice:
+The files needed (i.e. passwords.json) will be created once you've viewed or created passwords.
